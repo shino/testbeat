@@ -1,0 +1,9 @@
+- name: mertic1
+  type: group
+  description: >
+    mertic1
+  fields:
+    - name: example
+      type: keyword
+      description: >
+        Example field

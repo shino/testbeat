@@ -1,0 +1,41 @@
+////
+This file is generated! See scripts/docs_collector.py
+////
+
+[[metricbeat-module-test1]]
+== test1 Module
+
+This is the test1 Module.
+
+
+
+[float]
+=== Example configuration
+
+The test1 module supports the standard configuration options that are described
+in <<configuration-metricbeat>>. Here is an example configuration:
+
+[source,yaml]
+----
+testbeat.modules:
+- module: test1
+  metricsets: ["set1"]
+  enabled: false
+  period: 10s
+  hosts: ["localhost"]
+
+----
+
+[float]
+=== Metricsets
+
+The following metricsets are available:
+
+* <<metricbeat-metricset-test1-mertic1,mertic1>>
+
+* <<metricbeat-metricset-test1-set1,set1>>
+
+include::test1/mertic1.asciidoc[]
+
+include::test1/set1.asciidoc[]
+

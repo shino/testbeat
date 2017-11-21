@@ -1,0 +1,10 @@
+////
+This file is generated! See scripts/docs_collector.py
+////
+
+  * <<metricbeat-module-test1,test1>>
+
+
+--
+
+include::modules/test1.asciidoc[]

@@ -1,0 +1,3 @@
+=== test1 set1 MetricSet
+
+This is the set1 metricset of the module test1.

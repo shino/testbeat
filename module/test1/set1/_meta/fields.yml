@@ -1,0 +1,9 @@
+- name: set1
+  type: group
+  description: >
+    set1
+  fields:
+    - name: example
+      type: keyword
+      description: >
+        Example field
