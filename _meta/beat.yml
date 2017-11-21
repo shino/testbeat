@@ -1,4 +1,4 @@
-###################### Metricbeat Configuration Example #######################
+###################### Testbeat Configuration Example #######################
 
 # This file is an example configuration file highlighting only the most common
 # options. The metricbeat.reference.yml file from the same directory contains all the
@@ -9,7 +9,7 @@
 
 #==========================  Modules configuration ============================
 
-metricbeat.config.modules:
+testbeat.config.modules:
   # Glob pattern for configuration loading
   path: ${path.config}/modules.d/*.yml
 
